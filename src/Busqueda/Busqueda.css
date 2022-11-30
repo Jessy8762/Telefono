@@ -1,0 +1,71 @@
+.contenedor
+{
+    background-color: rgb(255, 80, 11);
+    position: relative;
+    height: 5vh;
+    width: 15vw;
+    text-align: center;
+    align-items: center;
+    padding-top: 1vh;
+    left: 42vw;
+    border-radius: 20px;
+}
+.cuadrito
+{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(255, 80, 11);
+    width: 30vw;
+    height: 20vh;
+    left: 35vw;
+    bottom: 8vh;
+   border-radius: 25px;
+   margin-top: 10vh;
+}
+.nombreh1
+{
+    color: aliceblue;
+}
+.textolista
+{
+    position: relative;
+    text-align: center;
+}
+.cantamigos
+{
+    position: fixed;
+    text-align: center;
+    align-items: center;
+    width: 12vw;
+    height: 4vh;
+    left: 17px;
+    top: 1vh;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+
+.botonborrar
+{
+   
+    color: black;
+    border-radius: 25px;
+    
+}
+
+.textomilista
+{
+    position: relative;
+    text-align: center;
+}
+
+.inputbuscar
+{
+    width: 12vw;
+}
+
+.nombreuser
+{
+    color: white;
+}

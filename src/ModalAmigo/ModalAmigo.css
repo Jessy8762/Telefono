@@ -1,0 +1,67 @@
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.479);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.modal_header{
+    width: 400px;
+    margin: 0px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+    background-color: rgb(173, 59, 207);
+}
+
+.modal_formulario{
+    width: 400px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgb(173, 59, 207);
+}
+
+.modal_formulario input{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    color: rgb(116, 44, 122);
+    font-style: italic;
+}
+
+.modal_formulario div{
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+}
+
+.modal_formulario div button{
+    width: 140px;
+    height: 30px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.modal_formulario div button:hover{
+    background-color: rgb(243, 51, 233);
+    cursor: pointer;
+}
+
+
+
+
+
